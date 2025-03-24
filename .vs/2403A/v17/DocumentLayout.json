@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UnityProject\\2403A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8A571B-6B16-FD55-3637-1ED72C722AB0}|Assembly-CSharp.csproj|d:\\unityproject\\2403a\\assets\\scripts\\framework\\ui\\nonepanel\\noneview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8A571B-6B16-FD55-3637-1ED72C722AB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\framework\\ui\\nonepanel\\noneview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8A571B-6B16-FD55-3637-1ED72C722AB0}|Assembly-CSharp.csproj|d:\\unityproject\\2403a\\assets\\scripts\\framework\\base\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8A571B-6B16-FD55-3637-1ED72C722AB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\framework\\base\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B8A571B-6B16-FD55-3637-1ED72C722AB0}|Assembly-CSharp.csproj|d:\\unityproject\\2403a\\assets\\scripts\\framework\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B8A571B-6B16-FD55-3637-1ED72C722AB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\framework\\manager\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoneView.cs",
+              "DocumentMoniker": "D:\\UnityProject\\2403A\\Assets\\Scripts\\FrameWork\\UI\\NonePanel\\NoneView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FrameWork\\UI\\NonePanel\\NoneView.cs",
+              "ToolTip": "D:\\UnityProject\\2403A\\Assets\\Scripts\\FrameWork\\UI\\NonePanel\\NoneView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FrameWork\\UI\\NonePanel\\NoneView.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAnwBoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:47:56.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIWindow.cs",
+              "DocumentMoniker": "D:\\UnityProject\\2403A\\Assets\\Scripts\\FrameWork\\Base\\UIWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FrameWork\\Base\\UIWindow.cs",
+              "ToolTip": "D:\\UnityProject\\2403A\\Assets\\Scripts\\FrameWork\\Base\\UIWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FrameWork\\Base\\UIWindow.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAjwE4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:46:07.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\UnityProject\\2403A\\Assets\\Scripts\\FrameWork\\Manager\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FrameWork\\Manager\\UIManager.cs",
+              "ToolTip": "D:\\UnityProject\\2403A\\Assets\\Scripts\\FrameWork\\Manager\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FrameWork\\Manager\\UIManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIA3wCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:44:33.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

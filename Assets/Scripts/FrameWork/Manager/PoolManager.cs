@@ -7,14 +7,14 @@ public class PoolManager : UnitySingleton<PoolManager>
     Dictionary<string, List<GameObject>> poolDic = new Dictionary<string, List<GameObject>>();
 
     /// <summary>
-    /// ´Ó¶ÔÏó³Ø»ñÈ¡¶ÔÏó
+    /// ä»å¯¹è±¡æ± è·å–å¯¹è±¡
     /// </summary>
     /// <param name="name"></param>
     /// <returns></returns>
     public GameObject GetGameObject(string name)
     {
         GameObject obj = null;
-        //ÅĞ¶Ï¶ÔÏó³ØÖĞÓĞÃ»ÓĞÕâ¸ö¶ÔÏóÁĞ±í
+        //åˆ¤æ–­å¯¹è±¡æ± ä¸­æœ‰æ²¡æœ‰è¿™ä¸ªå¯¹è±¡åˆ—è¡¨
         if (poolDic.ContainsKey(name) && poolDic[name].Count > 0)
         {
             obj = poolDic[name][0];
@@ -26,7 +26,7 @@ public class PoolManager : UnitySingleton<PoolManager>
     }
 
     /// <summary>
-    /// »ØÊÕ¶ÔÏóÂß¼­
+    /// å›æ”¶å¯¹è±¡é€»è¾‘
     /// </summary>
     /// <param name="name"></param>
     /// <param name="obj"></param>

@@ -4,27 +4,27 @@ using UnityEditor;
 using UnityEngine;
 
 /// <summary>
-/// ×ÊÔ´¼ÓÔØ¿ò¼Ü °üº¬¼ÓÔØ¡¢»ñÈ¡¡¢Ğ¶ÔØ
-/// ¼ÓÔØ£ºÍ¬²½¼ÓÔØ£¬Òì²½¼ÓÔØ£¬Ô¤¼ÓÔØ
-/// ¶ÔÏó³Ø
+/// èµ„æºåŠ è½½æ¡†æ¶ åŒ…å«åŠ è½½ã€è·å–ã€å¸è½½
+/// åŠ è½½ï¼šåŒæ­¥åŠ è½½ï¼Œå¼‚æ­¥åŠ è½½ï¼Œé¢„åŠ è½½
+/// å¯¹è±¡æ± 
 /// </summary>
 public class ResourceMgr : Singleton<ResourceMgr>
 {
     Dictionary<string, Object> assetDic = new Dictionary<string, Object>();
 
     /// <summary>
-    /// Resources·ºĞÍ¼ÓÔØ×ÊÔ´·½·¨
+    /// Resourcesæ³›å‹åŠ è½½èµ„æºæ–¹æ³•
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="path"></param>
     /// <returns></returns>
     public T ResLoadAsset<T>(string path) where T : Object
     {
-        //Èç¹ûÂ·¾¶Îª¿Õ ÔòÖ±½Óreturn null
+        //å¦‚æœè·¯å¾„ä¸ºç©º åˆ™ç›´æ¥return null
         if (string.IsNullOrEmpty(path))
             return null;
-        Object obj = null;//ÉúÃüÒ»¸ö½ÓÊÕ¶ÔÏó 
-        if (assetDic.TryGetValue(path, out obj)) //Í¨¹ıÂ·¾¶ÔÚ×ÖµäÖĞÕÒµ½Öµ value
+        Object obj = null;//ç”Ÿå‘½ä¸€ä¸ªæ¥æ”¶å¯¹è±¡ 
+        if (assetDic.TryGetValue(path, out obj)) //é€šè¿‡è·¯å¾„åœ¨å­—å…¸ä¸­æ‰¾åˆ°å€¼ value
         {
             return obj as T;
         }
@@ -33,18 +33,18 @@ public class ResourceMgr : Singleton<ResourceMgr>
         return obj as T;
     }
     /// <summary>
-    /// AssetDataBase·ºĞÍ¼ÓÔØ×ÊÔ´·½·¨
+    /// AssetDataBaseæ³›å‹åŠ è½½èµ„æºæ–¹æ³•
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="path"></param>
     /// <returns></returns>
     public T AssetDataBaseLoadAsset<T>(string path) where T : Object
     {
-        //Èç¹ûÂ·¾¶Îª¿Õ ÔòÖ±½Óreturn null
+        //å¦‚æœè·¯å¾„ä¸ºç©º åˆ™ç›´æ¥return null
         if (string.IsNullOrEmpty(path))
             return null;
-        Object obj = null;//ÉúÃüÒ»¸ö½ÓÊÕ¶ÔÏó 
-        if (assetDic.TryGetValue(path, out obj)) //Í¨¹ıÂ·¾¶ÔÚ×ÖµäÖĞÕÒµ½Öµ value
+        Object obj = null;//ç”Ÿå‘½ä¸€ä¸ªæ¥æ”¶å¯¹è±¡ 
+        if (assetDic.TryGetValue(path, out obj)) //é€šè¿‡è·¯å¾„åœ¨å­—å…¸ä¸­æ‰¾åˆ°å€¼ value
         {
             return obj as T;
         }

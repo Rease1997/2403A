@@ -24,17 +24,17 @@ using UnityEngine.UI;
 
 public class NoneView : ViewBase
 {
-    Button bagBtn;
+    //Button bagBtn;
     //public static Dictionary<int, GoodData> goodsDic = new Dictionary<int, GoodData>();
     public override void Init(UIWindow uiBase)
     {
         base.Init(uiBase);
-        //解析csv goodsDic保存所有的物品 key为物品id value为物品内容
-        bagBtn = this.uiBase.transform.Find("BagBtn").GetComponent<Button>();
-        AddButtonListener(bagBtn, () =>
-        {
-            UIManager.Instance.OpenWindow("BagPanel");
-        });
+        ////解析csv goodsDic保存所有的物品 key为物品id value为物品内容
+        //bagBtn = this.uiBase.transform.Find("BagBtn").GetComponent<Button>();
+        //AddButtonListener(bagBtn, () =>
+        //{
+        //    UIManager.Instance.OpenWindow("BagPanel");
+        //});
     }
 
     //public Button btn1;
