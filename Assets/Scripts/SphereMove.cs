@@ -1,4 +1,3 @@
-using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,10 +27,10 @@ public class SphereMove : MonoBehaviour
 
     public void Update()
     {
-        //µã³Ë¼ÆËãÇ°ºó
-        //dot´«Á½¸ö²ÎÊı±ØĞëÊÇÏòÁ¿(transform.forward, cube.position.normalized)
-        //µÃµ½µã³Ë½á¹û¼ÆËã·´ÓàÏÒÖµ(Mathf.Acos)
-        //ÔÙ³ËÒÔ»¡¶Èµ½¶È(Mathf.Rad2Deg)
+        //ç‚¹ä¹˜è®¡ç®—å‰å
+        //dotä¼ ä¸¤ä¸ªå‚æ•°å¿…é¡»æ˜¯å‘é‡(transform.forward, cube.position.normalized)
+        //å¾—åˆ°ç‚¹ä¹˜ç»“æœè®¡ç®—åä½™å¼¦å€¼(Mathf.Acos)
+        //å†ä¹˜ä»¥å¼§åº¦åˆ°åº¦(Mathf.Rad2Deg)
         float angle = Mathf.Acos(Vector3.Dot(transform.forward, cube.position.normalized)) * Mathf.Rad2Deg;
 
         Debug.Log(angle);
